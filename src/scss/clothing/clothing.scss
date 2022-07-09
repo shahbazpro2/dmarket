@@ -1,0 +1,172 @@
+@import "../variable/varable.scss";
+.damarket {
+    font-family: $primaryFf;
+    font-size: $p14;
+    color: $primaryColor;
+    //Clothing
+    .clothing {
+        padding-top: 29px;
+        padding-bottom: 29px;
+        background-color: #d9d9d933;
+        .title {
+            border-bottom: 1px solid #e5e8ec;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 19px;
+            padding-bottom: 10px;
+            h2 {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 24px;
+                color: #021523;
+            }
+            a {
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.03px;
+                color: #131f35;
+                position: relative;
+                padding-right: 19px;
+                &::before {
+                    content: "";
+                    width: 7px;
+                    height: 10px;
+                    background: url("http://127.0.0.1:5500/src/new-pages/assets/images/viewall.svg");
+                    display: block;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    background-repeat: no-repeat;
+                    right: 0;
+                }
+                &:hover {
+                    color: #0180fe;
+                }
+            }
+        }
+        .product-container {
+            border-radius: 4px;
+            display: flex;
+            flex-wrap: wrap;
+            .product-box {
+                padding: 28px 19px;
+                background-color: #fff;
+                width: 23.5%;
+                margin-right: 2%;
+                margin-bottom: 2%;
+                border: 1px solid #efefef;
+                border-radius: 6px;
+                .product-category {
+                    span {
+                        color: #999999;
+                        font-size: 11px;
+                        line-height: 20px;
+                        margin-bottom: 4px;
+                        &:not(:last-child) {
+                            margin-right: 6px;
+                            position: relative;
+                            &::after {
+                                content: ",";
+                            }
+                        }
+                    }
+                }
+                .product-name {
+                    margin: 0;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #000;
+                }
+                .product-image {
+                    margin-top: 16px;
+                    margin-bottom: 9px;
+                    position: relative;
+                    .product-badge {
+                        position: absolute;
+                        top: -10px;
+                        left: 30px;
+                        background: #ef262c;
+                        border-radius: 9px 9px 0 9px;
+                        font-size: 9px;
+                        line-height: 15px;
+                        color: #fff;
+                        display: block;
+                        padding: 2px 11px;
+                    }
+                    img {
+                        max-width: 100%;
+                        margin: 0 auto;
+                        display: block;
+                    }
+                }
+                .product-foot {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .product-price {
+                        span {
+                            display: block;
+                            i {
+                                font-style: normal;
+                                margin-right: 1px;
+                            }
+                        }
+                        .product-oldprice {
+                            font-size: 11px;
+                            line-height: 18px;
+                            color: #999;
+                            text-decoration-line: line-through;
+                        }
+                        .product-newprice {
+                            font-size: 14px;
+                            line-height: 22px;
+                            color: #ef262c;
+                        }
+                    }
+                    .product-review {
+                        text-align: right;
+                        label {
+                            font-size: 10px;
+                            line-height: 17px;
+                            color: #999;
+                            display: block;
+                        }
+                        img {
+                        }
+                    }
+                }
+                &:hover {
+                    cursor: pointer;
+                    // box-shadow: 0 0 10px inset #f7f7f7;
+                    // box-shadow: 0 0 10px inset #e7edf1;
+                }
+                &:nth-child(4n) {
+                    margin-right: 0;
+                }
+            }
+        }
+        .product-cathird {
+            .product-box {
+                width: 32%;
+                padding-left: 25px;
+                padding-right: 25px;
+                &:nth-child(4n) {
+                    margin-right: 2%;
+                }
+                &:nth-child(3n) {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    //Common into DaMarket
+    * {
+        outline: $none;
+    }
+    a {
+        text-decoration: $none;
+        @extend %trans-easecommon;
+    }
+}

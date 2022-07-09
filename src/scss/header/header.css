@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+.damarket .headsection .mid-header .midh-left .all-cat .cat-wrap select, .damarket .headsection .top-header .toph-right select {
+  font-size: 12px;
+  line-height: 18px;
+  background: transparent;
+  border: 0;
+  color: #fff;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.damarket .headsection .mid-header .midh-left .all-cat button {
+  background-color: #0180fe;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 500;
+  padding: 13px 25px;
+  height: 40px;
+}
+
+.damarket .headsection .mid-header .midh-left .all-cat input {
+  height: 40px;
+  border-radius: 6px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.damarket .headsection .mid-header .midh-right ul li .account-action,
+.damarket .headsection .mid-header .midh-right ul li .cart-action, .damarket .headsection .mid-header .midh-right ul li .badge, .damarket .headsection .mid-header .midh-right ul li, .damarket .headsection .mid-header .midh-right ul, .damarket .headsection .mid-header .midh-left, .damarket .headsection .top-header .toph-right {
+  display: flex;
+}
+
+.damarket .headsection .mid-header .midh-right ul, .damarket .headsection .top-header .toph-right {
+  justify-content: flex-end;
+}
+
+.damarket .headsection .mid-header .midh-right ul li .badge {
+  justify-content: center;
+}
+
+.damarket .headsection .mid-header .midh-right ul li .account-action,
+.damarket .headsection .mid-header .midh-right ul li .cart-action {
+  flex-direction: column;
+}
+
+.damarket .headsection .mid-header .midh-right ul li .badge, .damarket .headsection .mid-header .midh-right ul li, .damarket .headsection .mid-header .midh-right ul, .damarket .headsection .mid-header .midh-left {
+  align-items: center;
+}
+
+.damarket .headsection .mid-header .midh-left {
+  justify-content: space-between;
+}
+
+.damarket .headsection .mid-header .midh-left .all-cat .cat-wrap {
+  transform: translateY(-50%);
+}
+
+.damarket a {
+  transition: all 0.3s ease;
+}
+
+.damarket {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #373737;
+}
+.damarket .headsection {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9;
+}
+.damarket .headsection .top-header {
+  background-color: #4480ff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.damarket .headsection .top-header .toph-left ul {
+  margin: 0;
+  padding: 0;
+}
+.damarket .headsection .top-header .toph-left ul li a {
+  line-height: 21px;
+  color: #fff;
+  text-decoration: none;
+}
+.damarket .headsection .top-header .toph-left ul li:not(:last-child) {
+  margin-right: 36px;
+}
+.damarket .headsection .top-header .toph-right select {
+  margin-right: 16px;
+}
+.damarket .headsection .top-header .toph-right .sel-currancy {
+  border-right: 0.75px solid #ffffff;
+}
+.damarket .headsection .top-header .toph-right .sel-currancy select {
+  margin-right: 16px;
+}
+.damarket .headsection .top-header .toph-right .sel-language select {
+  margin-left: 16px;
+  margin-right: 0;
+}
+.damarket .headsection .mid-header {
+  padding-top: 18px;
+  background-color: #003585;
+}
+.damarket .headsection .mid-header .midh-left {
+  padding-bottom: 18px;
+}
+.damarket .headsection .mid-header .midh-left .logo a {
+  display: block;
+}
+.damarket .headsection .mid-header .midh-left .logo a img {
+  max-height: 52px;
+}
+.damarket .headsection .mid-header .midh-left .logo a:hover {
+  opacity: 0.9;
+}
+.damarket .headsection .mid-header .midh-left .all-cat {
+  position: relative;
+  max-width: 680px;
+}
+.damarket .headsection .mid-header .midh-left .all-cat .cat-wrap {
+  position: absolute;
+  padding-left: 16px;
+  padding-right: 16px;
+  top: 50%;
+  border-right: 1px solid rgba(19, 31, 53, 0.2);
+}
+.damarket .headsection .mid-header .midh-left .all-cat .cat-wrap select {
+  color: #373737;
+}
+.damarket .headsection .mid-header .midh-left .all-cat input {
+  padding-left: 170px;
+  padding-right: 110px;
+}
+.damarket .headsection .mid-header .midh-left .all-cat button {
+  padding-top: 0;
+  padding-bottom: 0;
+  position: absolute;
+  right: 0;
+}
+.damarket .headsection .mid-header .midh-left .all-cat button:hover {
+  opacity: 0.9;
+}
+.damarket .headsection .mid-header .midh-right ul {
+  margin: 0;
+}
+.damarket .headsection .mid-header .midh-right ul li {
+  margin-right: 0;
+  position: relative;
+}
+.damarket .headsection .mid-header .midh-right ul li a,
+.damarket .headsection .mid-header .midh-right ul li span {
+  color: #fff;
+}
+.damarket .headsection .mid-header .midh-right ul li .badge {
+  background-color: #ffbd27;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  right: -9px;
+  font-style: normal;
+  font-size: 9px;
+  top: -8px;
+  color: #131f35;
+}
+.damarket .headsection .mid-header .midh-right ul li .account-action,
+.damarket .headsection .mid-header .midh-right ul li .cart-action {
+  margin-left: 10px;
+}
+.damarket .headsection .mid-header .midh-right ul li .account-action .signin,
+.damarket .headsection .mid-header .midh-right ul li .account-action .totaltxt,
+.damarket .headsection .mid-header .midh-right ul li .cart-action .signin,
+.damarket .headsection .mid-header .midh-right ul li .cart-action .totaltxt {
+  font-size: 10px;
+  line-height: 15px;
+  opacity: 0.5;
+}
+.damarket .headsection .mid-header .midh-right ul li .account-action .signin:hover,
+.damarket .headsection .mid-header .midh-right ul li .cart-action .signin:hover {
+  opacity: 0.9;
+}
+.damarket .headsection .mid-header .midh-right ul li .account-action .account,
+.damarket .headsection .mid-header .midh-right ul li .account-action .total,
+.damarket .headsection .mid-header .midh-right ul li .cart-action .account,
+.damarket .headsection .mid-header .midh-right ul li .cart-action .total {
+  font-size: 12px;
+  line-height: 18px;
+}
+.damarket .headsection .mid-header .midh-right ul li:not(:first-child) {
+  margin-left: 25px;
+}
+.damarket .headsection .mid-header .category-menu + ul {
+  z-index: 10;
+  position: absolute;
+  width: calc(100% - 25px);
+  border-radius: 0 0 6px 6px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.damarket .headsection .mid-header .category-menu + ul li {
+  border: 0;
+  padding: 0;
+  border-bottom: 1px solid #e5e8ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: #fff;
+}
+.damarket .headsection .mid-header .category-menu + ul li a {
+  padding: 13px 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.damarket .headsection .mid-header .category-menu + ul li a img {
+  margin-right: 15px;
+}
+.damarket .headsection .mid-header .category-menu + ul li span {
+  color: #021523;
+  font-size: 13px;
+  line-height: 20px;
+}
+.damarket .headsection .mid-header .category-menu + ul li i {
+  right: 0;
+  position: absolute;
+  margin-right: 0;
+}
+.damarket .headsection .mid-header .category-menu + ul li .save {
+  font-style: normal;
+  background: #ef262c;
+  border-radius: 18px;
+  height: 18px;
+  width: 65px;
+  letter-spacing: 0.03px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #fff;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.damarket .headsection .mid-header .category-menu + ul li:hover {
+  background: #e7edf1;
+}
+.damarket .headsection .mid-header .category-menu + ul .active {
+  background: #e7edf1;
+}
+.damarket .headsection .mid-header .category-menu a {
+  display: block;
+  padding: 11px 13px;
+  background-color: #0180fe;
+  border-radius: 6px 6px 0 0;
+}
+.damarket .headsection .mid-header .category-menu a span {
+  font-size: 14px;
+  color: #fff;
+  line-height: 21px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.damarket .headsection .mid-header .main-menu {
+  position: relative;
+}
+.damarket .headsection .mid-header .main-menu > ul {
+  margin: 0;
+}
+.damarket .headsection .mid-header .main-menu > ul li {
+  margin-left: 40px;
+}
+.damarket .headsection .mid-header .main-menu > ul li a {
+  display: block;
+  color: #fff;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+}
+.damarket .headsection .mid-header .main-menu > ul li a:hover {
+  opacity: 0.75;
+}
+.damarket .headsection .mid-header .main-menu > ul li.active a {
+  font-weight: 500;
+}
+.damarket .headsection .mid-header .main-menu > ul li.active a:hover {
+  opacity: 1;
+}
+.damarket .headsection .mid-header .main-menu::before {
+  content: "";
+  position: absolute;
+  left: -28px;
+  background: rgba(255, 255, 255, 0.1);
+  width: calc(100% + 28px);
+  height: 1px;
+  top: 0;
+}
+.damarket .headsection .mid-header .main-menu .notification a {
+  width: 28px;
+  height: 28px;
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 50%;
+}
+.damarket .headsection .mid-header .main-menu .notification a:hover {
+  background: rgba(217, 217, 217, 0.2);
+}
+.damarket .headsection .mid-header .category-list {
+  position: absolute;
+  left: calc(100% - 11px);
+  width: 750px;
+  height: 430px;
+  top: 46px;
+  background: #fff;
+  border-radius: 6px;
+  z-index: 9;
+  padding: 20px 20px 20px 23px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+}
+.damarket .headsection .mid-header .category-list .category-item {
+  margin-bottom: 15px;
+  width: 32%;
+  margin-right: 2%;
+}
+.damarket .headsection .mid-header .category-list .category-item h3 {
+  color: #021523;
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+.damarket .headsection .mid-header .category-list .category-item ul {
+  margin: 0;
+  padding: 0;
+}
+.damarket .headsection .mid-header .category-list .category-item ul li {
+  list-style: none;
+}
+.damarket .headsection .mid-header .category-list .category-item ul li a span {
+  color: #021523;
+  font-size: 13px;
+  line-height: 20px;
+}
+.damarket .headsection .mid-header .category-list .category-item ul li a:hover span {
+  color: #4480ff;
+}
+.damarket .headsection .mid-header .category-list .category-item:nth-child(3n) {
+  margin-right: 0px;
+}
+.damarket * {
+  outline: none;
+}
+.damarket a {
+  text-decoration: none;
+}/*# sourceMappingURL=header.css.map */

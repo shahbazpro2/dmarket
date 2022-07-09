@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+.damarket a {
+  transition: all 0.3s ease;
+}
+
+.damarket {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #373737;
+}
+.damarket .thumbaccess {
+  padding-top: 53px;
+  padding-bottom: 53px;
+}
+.damarket .thumbaccess .thumb {
+  border-radius: 6px;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.damarket .thumbaccess .thumb .thumbimg {
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.damarket .thumbaccess .thumb .thumbimg img {
+  max-width: 100%;
+}
+.damarket .thumbaccess .thumb .thumbcontent h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #131f35;
+  margin: 0;
+}
+.damarket .thumbaccess .thumb .thumbcontent p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  color: #131f35;
+}
+.damarket .thumbaccess .thumb:hover {
+  cursor: pointer;
+}
+.damarket .thumbaccess .logistics {
+  background-color: #c1f2e3;
+}
+.damarket .thumbaccess .academy {
+  background-color: #e7edf1;
+}
+.damarket .thumbaccess .blog {
+  background-color: #c9eaff;
+}
+.damarket .thumbaccess .quot {
+  background-color: #ffebde;
+}
+.damarket * {
+  outline: none;
+}
+.damarket a {
+  text-decoration: none;
+}/*# sourceMappingURL=thumbAccess.css.map */

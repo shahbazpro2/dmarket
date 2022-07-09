@@ -1,0 +1,349 @@
+@import "../variable/varable.scss";
+.damarket {
+    font-family: $primaryFf;
+    font-size: $p14;
+    color: $primaryColor;
+    .headsection {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 9;
+        .top-header {
+            background-color: $primaryBlue;
+            padding-top: $p8;
+            padding-bottom: $p8;
+            .toph-left {
+                ul {
+                    margin: $p0;
+                    padding: $p0;
+                    li {
+                        a {
+                            line-height: $p21;
+                            color: $colorWhite;
+                            text-decoration: $none;
+                        }
+                        &:not(:last-child) {
+                            margin-right: $p36;
+                        }
+                    }
+                }
+            }
+            .toph-right {
+                @extend %d-flex;
+                @extend %jc-end;
+
+                select {
+                    @extend %selectDropdown;
+                    margin-right: $p16;
+                }
+                .sel-currancy {
+                    border-right: $bdr75;
+                    select {
+                        margin-right: $p16;
+                    }
+                }
+                .sel-language {
+                    select {
+                        margin-left: $p16;
+                        margin-right: $p0;
+                    }
+                }
+            }
+        }
+        .mid-header {
+            padding-top: $p18;
+            background-color: $primaryDarkblue;
+            .midh-left {
+                @extend %d-flex;
+                @extend %ai-center;
+                @extend %jc-between;
+                padding-bottom: $p18;
+                .logo {
+                    a {
+                        display: $block;
+                        img {
+                            max-height: $p52;
+                        }
+                        &:hover {
+                            opacity: $opacity9;
+                        }
+                    }
+                }
+                .all-cat {
+                    position: $posRel;
+                    max-width: $h680;
+                    .cat-wrap {
+                        position: $posAbs;
+                        padding-left: $p16;
+                        padding-right: $p16;
+                        top: $size50;
+                        @extend %trans-50;
+                        border-right: $bdrGrey;
+                        select {
+                            @extend %selectDropdown;
+                            color: $primaryColor;
+                        }
+                    }
+                    input {
+                        @extend %inputCommon;
+                        padding-left: $h170;
+                        padding-right: $h110;
+                    }
+                    button {
+                        @extend %commongBtnprimary;
+                        padding-top: $p0;
+                        padding-bottom: $p0;
+                        position: $posAbs;
+                        right: $p0;
+                        &:hover {
+                            opacity: $opacity9;
+                        }
+                    }
+                }
+            }
+            .midh-right {
+                ul {
+                    margin: $p0;
+                    @extend %d-flex;
+                    @extend %ai-center;
+                    @extend %jc-end;
+                    li {
+                        @extend %ai-center;
+                        @extend %d-flex;
+                        margin-right: $p0;
+                        position: $posRel;
+                        a,
+                        span {
+                            color: $colorWhite;
+                            i {
+                            }
+                        }
+                        .badge {
+                            background-color: $colorBadge;
+                            width: $p16;
+                            height: $p16;
+                            border-radius: $size50;
+                            @extend %d-flex;
+                            @extend %ai-center;
+                            @extend %jc-center;
+                            position: $posAbs;
+                            right: $p-9;
+                            font-style: $normal;
+                            font-size: $p9;
+                            top: $p-8;
+                            color: $badgeFont;
+                        }
+                        .account-action,
+                        .cart-action {
+                            @extend %d-flex;
+                            @extend %fd-column;
+                            margin-left: $h10;
+                            .signin,
+                            .totaltxt {
+                                font-size: $h10;
+                                line-height: $h15;
+                                opacity: $opacity5;
+                            }
+                            .signin {
+                                &:hover {
+                                    opacity: $opacity9;
+                                }
+                            }
+                            .account,
+                            .total {
+                                font-size: $p12;
+                                line-height: $p18;
+                            }
+                        }
+                        &:not(:first-child) {
+                            margin-left: $h25;
+                        }
+                    }
+                }
+            }
+            .category-menu {
+                + ul {
+                    // display: $none;
+                    z-index: 10;
+                    position: $posAbs;
+                    width: calc(100% - 25px);
+                    border-radius: 0 0 6px 6px;
+                    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+                    background-color: #fff;
+                    li {
+                        border: $p0;
+                        padding: 0;
+                        border-bottom: 1px solid #e5e8ec;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        position: relative;
+                        background-color: #fff;
+                        a {
+                            padding: 13px 20px;
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            img {
+                                margin-right: 15px;
+                            }
+                        }
+                        span {
+                            color: #021523;
+                            font-size: 13px;
+                            line-height: 20px;
+                        }
+                        i {
+                            // cursor: pointer;
+                            // margin-right: 20px;
+                            right: 0;
+                            position: absolute;
+                            margin-right: 0;
+                        }
+                        .save {
+                            font-style: normal;
+                            background: #ef262c;
+                            border-radius: 18px;
+                            height: 18px;
+                            width: 65px;
+                            letter-spacing: 0.03px;
+                            text-transform: uppercase;
+                            font-weight: 400;
+                            font-size: 10px;
+                            line-height: 10px;
+                            color: #fff;
+                            cursor: default;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-right: 10px;
+                        }
+                        &:hover {
+                            background: #e7edf1;
+                        }
+                    }
+                    .active {
+                        background: #e7edf1;
+                    }
+                }
+                a {
+                    display: $block;
+                    padding: 11px 13px;
+                    background-color: $colorBtnprimary;
+                    border-radius: $commonBradius $commonBradius $p0 $p0;
+                    img {
+                    }
+                    span {
+                        font-size: 14px;
+                        color: #fff;
+                        line-height: 21px;
+                        margin-left: 10px;
+                        vertical-align: middle;
+                    }
+                }
+            }
+            .main-menu {
+                position: relative;
+                > ul {
+                    margin: 0;
+                    li {
+                        margin-left: 40px;
+                        a {
+                            display: block;
+                            color: #fff;
+                            padding-top: 12.5px;
+                            padding-bottom: 12.5px;
+                            &:hover {
+                                opacity: 0.75;
+                            }
+                        }
+                    }
+                    li.active {
+                        a {
+                            font-weight: 500;
+                            &:hover {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: -28px;
+                    background: rgba(255, 255, 255, 0.1);
+                    width: calc(100% + 28px);
+                    height: 1px;
+                    top: 0;
+                }
+                .notification {
+                    a {
+                        width: 28px;
+                        height: 28px;
+                        background: rgb(217 217 217 / 10%);
+                        border-radius: 50%;
+                        &:hover {
+                            background: rgb(217 217 217 / 20%);
+                        }
+                    }
+                }
+            }
+            .category-list {
+                position: absolute;
+                left: calc(100% - 11px);
+                width: 750px;
+                height: 430px;
+                top: 46px;
+                background: #fff;
+                border-radius: 6px;
+                z-index: 9;
+                padding: 20px 20px 20px 23px;
+                box-shadow: 0px 10px 20px rgb(0 0 0 / 10%);
+                display: flex;
+                flex-wrap: wrap;
+                // display: none;
+                .category-item {
+                    margin-bottom: 15px;
+                    width: 32%;
+                    margin-right: 2%;
+                    h3 {
+                        color: #021523;
+                        font-size: 14px;
+                        margin: 0 0 10px;
+                    }
+                    ul {
+                        margin: 0;
+                        padding: 0;
+                        li {
+                            list-style: none;
+                            a {
+                                span {
+                                    color: #021523;
+                                    font-size: 13px;
+                                    line-height: 20px;
+                                }
+                                &:hover {
+                                    span {
+                                        color: $primaryBlue;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:nth-child(3n) {
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+    //Common into DaMarket
+    * {
+        outline: $none;
+    }
+    a {
+        text-decoration: $none;
+        @extend %trans-easecommon;
+    }
+}

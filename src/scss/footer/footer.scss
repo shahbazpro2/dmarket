@@ -1,0 +1,118 @@
+@import "../variable/varable.scss";
+.damarket {
+    font-family: $primaryFf;
+    font-size: $p14;
+    color: $primaryColor;
+    //Footer
+    .footer {
+        background-color: $colorWhite;
+        padding-top: 60px;
+        .about {
+            a {
+                img {
+                }
+            }
+            p {
+                margin: 24px 0 0;
+                color: #131f35;
+                font-size: 14px;
+                line-height: 22px;
+                max-width: 260px;
+            }
+        }
+        .foot-menu {
+            h4 {
+                color: #1c1c1d;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 30px;
+                margin-bottom: 16px;
+                // text-transform: uppercase;
+            }
+            ul {
+                margin: 0;
+                padding: 0;
+                li {
+                    list-style: none;
+                    a {
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 26px;
+                        color: #4f4f4f;
+                        &:hover {
+                            color: #0180fe;
+                        }
+                    }
+                    &:not(:last-child) {
+                        margin-bottom: 12px;
+                    }
+                }
+            }
+        }
+        .contact-us {
+            address {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #4f4f4f;
+            }
+            p {
+                margin-top: 12px;
+                font-size: 16px;
+                line-height: 26px;
+                a {
+                    color: #4f4f4f;
+                    &:hover {
+                        color: #0180fe;
+                    }
+                }
+            }
+        }
+        .copyrights-section {
+            margin-top: 60px;
+            // border-top: 1px solid #ffbd27;
+            border-top: 1px solid #ffbd271f;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            p {
+                margin: 0;
+                color: #4f4f4f;
+                font-size: 14px;
+                line-height: 24px;
+            }
+            .social {
+                ul {
+                    align-items: center;
+                    display: flex;
+                    justify-content: flex-end;
+                    margin: 0;
+                    li {
+                        a {
+                            background-color: #131f351a;
+                            height: 28px;
+                            width: 28px;
+                            border-radius: $commonBradius;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            &:hover {
+                                background-color: #1a3585;
+                                img {
+                                    filter: invert(1);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //Common into DaMarket
+    * {
+        outline: $none;
+    }
+    a {
+        text-decoration: $none;
+        @extend %trans-easecommon;
+    }
+}

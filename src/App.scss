@@ -1,0 +1,18 @@
+.flag-da {
+width: 30px;
+height: 16px;
+}
+.da-drop-down-country {
+
+}
+.mobile-category-menu {
+    .p-menubar-root-list {
+        overflow: hidden ;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      
+    }
+    .p-menubar-root-list::-webkit-scrollbar {
+        display: none;
+      }
+}

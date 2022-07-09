@@ -1,0 +1,92 @@
+@import "../variable/varable.scss";
+.damarket {
+    font-family: $primaryFf;
+    font-size: $p14;
+    color: $primaryColor;
+    //Request Quotation
+    .request-quotation {
+        // background-color: #f6f5f5;
+        background-color: #fff;
+        padding-top: 156px;
+        padding-bottom: 156px;
+        border-bottom: 1px solid #f8f8f8;
+        .req-content {
+            background-color: #0082fe;
+            // background: #0082fe url(../../../../public/images/quotes-bg.png) no-repeat;
+            border-radius: 10px;
+            padding: 35px 60px;
+            .req-content-inn {
+                flex: 0 0 auto;
+                width: 50%;
+                h2 {
+                    font-size: 30px;
+                    line-height: 45px;
+                    color: #fff;
+                    margin-bottom: 22px;
+                }
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    margin: 0;
+                    color: #fff;
+                }
+            }
+        }
+        .req-form {
+            background: #fbfbfb;
+            border-radius: 8px;
+            padding: 40px 44px;
+            position: absolute;
+            right: 81px;
+            top: 0;
+            transform: translateY(-22%);
+            width: calc(50% - 81px);
+            h2 {
+                font-size: 24px;
+                line-height: 48px;
+                color: #000;
+            }
+            p {
+                font-size: 16px;
+                line-height: 28px;
+                color: #9c9c9c;
+                margin: 3px 0 14px;
+            }
+            form {
+                input,
+                select {
+                    background-color: rgba(217, 217, 217, 0.1);
+                    border: 1.5px solid #dbdbdb;
+                    border-radius: 8px;
+                    margin-top: 17px;
+                    height: 50px;
+                    &:focus {
+                        background-color: #fff;
+                    }
+                }
+                button {
+                    background: #003585;
+                    border-radius: 6px;
+                    height: 50px;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 32px;
+                    border: 1px solid #003585;
+                    color: #fff;
+                    &:hover {
+                        background-color: #fff;
+                        color: #003585;
+                    }
+                }
+            }
+        }
+    }
+    //Common into DaMarket
+    * {
+        outline: $none;
+    }
+    a {
+        text-decoration: $none;
+        @extend %trans-easecommon;
+    }
+}

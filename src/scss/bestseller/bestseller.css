@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+.damarket a {
+  transition: all 0.3s ease;
+}
+
+.damarket {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #373737;
+}
+.damarket .bestseller {
+  margin-bottom: 57px;
+}
+.damarket .bestseller .title {
+  border-bottom: 1px solid #e5e8ec;
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 19px;
+}
+.damarket .bestseller .title h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #021523;
+}
+.damarket .bestseller .title a {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.03px;
+  color: #131f35;
+  position: relative;
+  padding-right: 19px;
+}
+.damarket .bestseller .title a::before {
+  content: "";
+  width: 7px;
+  height: 10px;
+  background: url("http://127.0.0.1:5500/src/new-pages/assets/images/viewall.svg");
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-repeat: no-repeat;
+  right: 0;
+}
+.damarket .bestseller .title a:hover {
+  color: #0180fe;
+}
+.damarket .bestseller .sellerbox .sellerboxcontent {
+  position: absolute;
+  top: 58px;
+  left: 35px;
+}
+.damarket .bestseller .sellerbox .sellerboxcontent span {
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffbd27;
+  margin-bottom: 3px;
+}
+.damarket .bestseller .sellerbox .sellerboxcontent h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  color: #fff;
+  margin-bottom: 4px;
+  max-width: 300px;
+}
+.damarket .bestseller .sellerbox .sellerboxcontent button {
+  background: #ffbd27;
+  border-radius: 6px;
+  width: 94px;
+  font-weight: 500;
+  color: #161616;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 22px;
+  border: 1px solid #ffbd27;
+}
+.damarket .bestseller .sellerbox .sellerboxcontent button:hover {
+  background: #fff;
+  color: #ffbd27;
+}
+.damarket * {
+  outline: none;
+}
+.damarket a {
+  text-decoration: none;
+}/*# sourceMappingURL=bestseller.css.map */

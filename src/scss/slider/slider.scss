@@ -1,0 +1,151 @@
+@import "../variable/varable.scss";
+
+.damarket {
+    font-family: $primaryFf;
+    font-size: $p14;
+    color: $primaryColor;
+    //MainSlider
+    .main-slider {
+        background-color: #b0e0ee;
+        position: relative;
+        margin-top: 171px;
+        .slick-dots {
+            max-width: 1320px;
+            margin: 0 auto;
+            text-align: left;
+            position: absolute;
+            padding-left: calc(25% - 75px);
+            left: 0;
+            right: 0;
+            bottom: 50px;
+            li {
+                width: 10px;
+                height: 10px;
+                margin: 0;
+                padding: 0;
+                margin-right: 10px;
+                button {
+                    padding: 0;
+                    margin: 0;
+                    font-size: 0;
+                    line-height: 0;
+                    width: 10px;
+                    height: 10px;
+                    padding: 0;
+                    background: transparent;
+                    &:before {
+                        font-size: 0;
+                        line-height: 10px;
+                        top: 0;
+                        left: 0;
+                        width: 10px;
+                        height: 10px;
+                        content: "";
+                        text-align: center;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                        background: #fff;
+                        opacity: 1;
+                    }
+                }
+            }
+            li.slick-active {
+                button {
+                    &:before {
+                        opacity: 1;
+                        background: #233a95;
+                    }
+                }
+            }
+        }
+
+        .slide-content {
+            padding-left: 50px;
+            max-width: 1320px;
+            margin: 0 auto;
+            padding-left: 20%;
+            display: inherit !important;
+            .slide-continn {
+                position: relative;
+                z-index: 9;
+                padding-top: 18px;
+                padding-bottom: 60px;
+                > span {
+                    background: #ffbd27;
+                    border-radius: 28px;
+                    padding: 6px 18px;
+                    letter-spacing: 1.20072px;
+                    text-transform: uppercase;
+                    color: #003585;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 14px;
+                    margin-top: 56px;
+                    margin-bottom: 32px;
+                    display: inline-block;
+                }
+                h1 {
+                    color: #021523;
+                    letter-spacing: 0.0840502px;
+                    font-size: 64px;
+                    line-height: 58px;
+                    font-weight: 500;
+                    margin-bottom: 24px;
+                    span {
+                        font-size: 46px;
+                        font-weight: normal;
+                        margin-bottom: 6px;
+                        display: block;
+                    }
+                }
+                p {
+                    color: #021523;
+                    margin: 0 0 22px;
+                    font-size: 20px;
+                    line-height: 32px;
+                    letter-spacing: 0.0360215px;
+                    span {
+                        font-weight: 500;
+                        font-size: 34px;
+                        line-height: 52px;
+                        letter-spacing: 0.0360215px;
+                        color: #ef262c;
+                        vertical-align: middle;
+                        margin: 0 10px;
+                    }
+                }
+                button {
+                    background: #0180fe;
+                    border: 1px solid #0180fe;
+                    border-radius: 66px;
+                    padding: 10px 39px;
+                    font-weight: 500;
+                    font-size: 16.81px;
+                    line-height: 23px;
+                    text-align: center;
+                    letter-spacing: 0.0360215px;
+                    color: #fff;
+                    margin-bottom: 49px;
+                    transition: all 0.3s ease;
+                    &:hover {
+                        color: #0180fe;
+                        background-color: #fff;
+                    }
+                }
+            }
+            .slide-img {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+            }
+        }
+    }
+    //Common into DaMarket
+    * {
+        outline: $none;
+    }
+    a {
+        text-decoration: $none;
+        @extend %trans-easecommon;
+    }
+}

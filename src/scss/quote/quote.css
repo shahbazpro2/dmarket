@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+.damarket a {
+  transition: all 0.3s ease;
+}
+
+.damarket {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #373737;
+}
+.damarket .request-quotation {
+  background-color: #fff;
+  padding-top: 156px;
+  padding-bottom: 156px;
+  border-bottom: 1px solid #f8f8f8;
+}
+.damarket .request-quotation .req-content {
+  background-color: #0082fe;
+  border-radius: 10px;
+  padding: 35px 60px;
+}
+.damarket .request-quotation .req-content .req-content-inn {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.damarket .request-quotation .req-content .req-content-inn h2 {
+  font-size: 30px;
+  line-height: 45px;
+  color: #fff;
+  margin-bottom: 22px;
+}
+.damarket .request-quotation .req-content .req-content-inn p {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  color: #fff;
+}
+.damarket .request-quotation .req-form {
+  background: #fbfbfb;
+  border-radius: 8px;
+  padding: 40px 44px;
+  position: absolute;
+  right: 81px;
+  top: 0;
+  transform: translateY(-22%);
+  width: calc(50% - 81px);
+}
+.damarket .request-quotation .req-form h2 {
+  font-size: 24px;
+  line-height: 48px;
+  color: #000;
+}
+.damarket .request-quotation .req-form p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #9c9c9c;
+  margin: 3px 0 14px;
+}
+.damarket .request-quotation .req-form form input,
+.damarket .request-quotation .req-form form select {
+  background-color: rgba(217, 217, 217, 0.1);
+  border: 1.5px solid #dbdbdb;
+  border-radius: 8px;
+  margin-top: 17px;
+  height: 50px;
+}
+.damarket .request-quotation .req-form form input:focus,
+.damarket .request-quotation .req-form form select:focus {
+  background-color: #fff;
+}
+.damarket .request-quotation .req-form form button {
+  background: #003585;
+  border-radius: 6px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  border: 1px solid #003585;
+  color: #fff;
+}
+.damarket .request-quotation .req-form form button:hover {
+  background-color: #fff;
+  color: #003585;
+}
+.damarket * {
+  outline: none;
+}
+.damarket a {
+  text-decoration: none;
+}/*# sourceMappingURL=quote.css.map */

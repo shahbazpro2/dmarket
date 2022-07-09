@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+$primaryFf: "Poppins", sans-serif;
+$commonBradius: 6px;
+$primaryColor: #373737;
+$primaryBlue: #4480ff;
+$primaryDarkblue: #003585;
+$colorWhite: #fff;
+$colorTransparent: transparent;
+$colorBtnprimary: #0180fe;
+$colorBadge: #ffbd27;
+
+$badgeFont: #131f35;
+
+$none: none;
+$block: block;
+$pointer: pointer;
+$normal: normal;
+
+$posRel: relative;
+$posAbs: absolute;
+
+$fw5: 500;
+
+$p0: 0;
+$p6: 6px;
+$p8: 8px;
+$p-8: -8px;
+$p9: 9px;
+$p-9: -9px;
+$p12: 12px;
+$p13: 13px;
+$p14: 14px;
+$p16: 16px;
+$p18: 18px;
+$p21: 21px;
+$p21: 21px;
+$p36: 36px;
+$p52: 52px;
+
+$h10: 10px;
+$h15: 15px;
+$h20: 20px;
+$h25: 25px;
+$h40: 40px;
+$h170: 170px;
+$h110: 110px;
+$h680: 680px;
+
+$size50: 50%;
+$size100: 100%;
+
+$opacity5: 0.5;
+$opacity9: 0.9;
+
+$bdrSingle: 1px solid #fff;
+$bdr75: 0.75px solid #ffffff;
+$bdrGrey: 1px solid #131f3533;
+
+%selectDropdown {
+    font-size: $p12;
+    line-height: $p18;
+    background: $colorTransparent;
+    border: $p0;
+    color: $colorWhite;
+    padding-right: $h20;
+    cursor: $pointer;
+}
+%commongBtnprimary {
+    background-color: $colorBtnprimary;
+    color: $colorWhite;
+    border-radius: $commonBradius;
+    font-weight: $fw5;
+    padding: $p13 $h25;
+    height: $h40;
+}
+%inputCommon {
+    height: $h40;
+    border-radius: $commonBradius;
+    width: $size100;
+    background-color: $colorWhite;
+    border: $bdrSingle;
+}
+%d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+%jc-end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+%jc-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+%fd-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+%ai-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+%jc-between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+%trans-50 {
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+%trans-easecommon {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}

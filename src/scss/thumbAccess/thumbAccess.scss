@@ -1,0 +1,71 @@
+@import "../variable/varable.scss";
+.damarket {
+    font-family: $primaryFf;
+    font-size: $p14;
+    color: $primaryColor;
+    //Thumb Access
+    .thumbaccess {
+        padding-top: 53px;
+        padding-bottom: 53px;
+        .thumb {
+            border-radius: 6px;
+            padding: 14px;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            .thumbimg {
+                background: #fff;
+                border-radius: 50%;
+                margin-right: 10px;
+                height: 50px;
+                width: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                // padding: 5px;
+                img {
+                    // border-radius: 50%;
+                    max-width: 100%;
+                }
+            }
+            .thumbcontent {
+                h4 {
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #131f35;
+                    margin: 0;
+                }
+                p {
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #131f35;
+                }
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        .logistics {
+            background-color: #c1f2e3;
+        }
+        .academy {
+            background-color: #e7edf1;
+        }
+        .blog {
+            background-color: #c9eaff;
+        }
+        .quot {
+            background-color: #ffebde;
+        }
+    }
+    //Common into DaMarket
+    * {
+        outline: $none;
+    }
+    a {
+        text-decoration: $none;
+        @extend %trans-easecommon;
+    }
+}

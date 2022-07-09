@@ -1,0 +1,92 @@
+@import "../variable/varable.scss";
+.damarket {
+    font-family: $primaryFf;
+    font-size: $p14;
+    color: $primaryColor;
+    //Best Seller
+    .bestseller {
+        margin-bottom: 57px;
+        .title {
+            border-bottom: 1px solid #e5e8ec;
+            margin-bottom: 28px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 19px;
+            h2 {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 24px;
+                color: #021523;
+            }
+            a {
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.03px;
+                color: #131f35;
+                position: relative;
+                padding-right: 19px;
+                &::before {
+                    content: "";
+                    width: 7px;
+                    height: 10px;
+                    background: url("http://127.0.0.1:5500/src/new-pages/assets/images/viewall.svg");
+                    display: block;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    background-repeat: no-repeat;
+                    right: 0;
+                }
+                &:hover {
+                    color: #0180fe;
+                }
+            }
+        }
+        .sellerbox {
+            .sellerboxcontent {
+                position: absolute;
+                top: 58px;
+                left: 35px;
+                span {
+                    font-size: 13px;
+                    line-height: 20px;
+                    color: #ffbd27;
+                    margin-bottom: 3px;
+                }
+                h3 {
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 34px;
+                    color: #fff;
+                    margin-bottom: 4px;
+                    max-width: 300px;
+                }
+                button {
+                    background: #ffbd27;
+                    border-radius: 6px;
+                    width: 94px;
+                    font-weight: 500;
+                    color: #161616;
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    line-height: 22px;
+                    border: 1px solid #ffbd27;
+                    &:hover {
+                        background: #fff;
+                        color: #ffbd27;
+                    }
+                }
+            }
+        }
+    }
+    //Common into DaMarket
+    * {
+        outline: $none;
+    }
+    a {
+        text-decoration: $none;
+        @extend %trans-easecommon;
+    }
+}

@@ -1,0 +1,15 @@
+.flag-da {
+  width: 30px;
+  height: 16px;
+}
+
+.mobile-category-menu .p-menubar-root-list {
+  overflow: hidden;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+.mobile-category-menu .p-menubar-root-list::-webkit-scrollbar {
+  display: none;
+} /*# sourceMappingURL=App.css.map */

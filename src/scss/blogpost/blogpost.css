@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+.damarket a {
+  transition: all 0.3s ease;
+}
+
+.damarket {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #373737;
+}
+.damarket .blogpost {
+  background-color: #003585;
+  padding-top: 57px;
+  padding-bottom: 57px;
+}
+.damarket .blogpost .title {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1019607843);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 19px;
+}
+.damarket .blogpost .title h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+}
+.damarket .blogpost .title a {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.03px;
+  color: #fff;
+  position: relative;
+  padding-right: 19px;
+}
+.damarket .blogpost .title a::before {
+  content: "";
+  width: 7px;
+  height: 10px;
+  background: url("http://127.0.0.1:5500/src/new-pages/assets/images/arrow-yellow.svg");
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-repeat: no-repeat;
+  right: 0;
+}
+.damarket .blogpost .title a:hover {
+  color: #ffbd27;
+}
+.damarket .blogpost .post-container {
+  padding-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.damarket .blogpost .post-container .post {
+  border: 8px solid #fff;
+  width: 23.5%;
+  margin-right: 2%;
+  position: relative;
+  transition: all 0.9s ease;
+}
+.damarket .blogpost .post-container .post:nth-child(4) {
+  margin-right: 0;
+}
+.damarket .blogpost .post-container .post .post-img {
+  position: relative;
+}
+.damarket .blogpost .post-container .post .post-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.damarket .blogpost .post-container .post .post-img::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: linear-gradient(329.39deg, #000000 -10.96%, rgba(0, 0, 0, 0.19) 103.96%);
+}
+.damarket .blogpost .post-container .post .post-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 16px;
+}
+.damarket .blogpost .post-container .post .post-content h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin: 0;
+}
+.damarket .blogpost .post-container .post .post-content p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;
+  margin: 0 0 7px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.damarket .blogpost .post-container .post .post-content button {
+  text-align: center;
+  letter-spacing: -0.192767px;
+  font-size: 10px;
+  line-height: 20px;
+  color: #fff;
+  border: 0.668373px solid #ffffff;
+  background: #000000;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.damarket .blogpost .post-container .post .post-content button:after {
+  content: "";
+  background: url(http://127.0.0.1:5500/src/new-pages/assets/images/arrow-white.svg) no-repeat;
+  display: block;
+}
+.damarket .blogpost .post-container .post .post-content button:hover {
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+}
+.damarket .blogpost .post-container .post:hover .post-img::before {
+  display: block;
+}
+.damarket * {
+  outline: none;
+}
+.damarket a {
+  text-decoration: none;
+}/*# sourceMappingURL=blogpost.css.map */

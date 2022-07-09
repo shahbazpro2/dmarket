@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+.damarket a {
+  transition: all 0.3s ease;
+}
+
+.damarket {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #373737;
+}
+.damarket .footer {
+  background-color: #fff;
+  padding-top: 60px;
+}
+.damarket .footer .about p {
+  margin: 24px 0 0;
+  color: #131f35;
+  font-size: 14px;
+  line-height: 22px;
+  max-width: 260px;
+}
+.damarket .footer .foot-menu h4 {
+  color: #1c1c1d;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+.damarket .footer .foot-menu ul {
+  margin: 0;
+  padding: 0;
+}
+.damarket .footer .foot-menu ul li {
+  list-style: none;
+}
+.damarket .footer .foot-menu ul li a {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #4f4f4f;
+}
+.damarket .footer .foot-menu ul li a:hover {
+  color: #0180fe;
+}
+.damarket .footer .foot-menu ul li:not(:last-child) {
+  margin-bottom: 12px;
+}
+.damarket .footer .contact-us address {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+}
+.damarket .footer .contact-us p {
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.damarket .footer .contact-us p a {
+  color: #4f4f4f;
+}
+.damarket .footer .contact-us p a:hover {
+  color: #0180fe;
+}
+.damarket .footer .copyrights-section {
+  margin-top: 60px;
+  border-top: 1px solid rgba(255, 189, 39, 0.1215686275);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.damarket .footer .copyrights-section p {
+  margin: 0;
+  color: #4f4f4f;
+  font-size: 14px;
+  line-height: 24px;
+}
+.damarket .footer .copyrights-section .social ul {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+.damarket .footer .copyrights-section .social ul li a {
+  background-color: rgba(19, 31, 53, 0.1019607843);
+  height: 28px;
+  width: 28px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.damarket .footer .copyrights-section .social ul li a:hover {
+  background-color: #1a3585;
+}
+.damarket .footer .copyrights-section .social ul li a:hover img {
+  filter: invert(1);
+}
+.damarket * {
+  outline: none;
+}
+.damarket a {
+  text-decoration: none;
+}/*# sourceMappingURL=footer.css.map */

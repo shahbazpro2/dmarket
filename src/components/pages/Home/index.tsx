@@ -1,6 +1,6 @@
 import BestSeller from './BestSeller'
 import BlogPost from './BlogPost'
-import Clothing from './Clothing'
+import CategoriesProduct from './CategoriesProduct'
 import Quote from './Quote'
 import SimpleSlider from './Slider'
 import ThumbAccess from './ThumbAccess'
@@ -13,7 +13,7 @@ const Home = () => {
             <ThumbAccess />
             <Trending />
             <BestSeller />
-            <Clothing />
+            <CategoriesProduct />
             <BlogPost />
             <Quote />
         </>
